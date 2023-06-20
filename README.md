@@ -1,4 +1,4 @@
 # Simplified-Dynamo
 Code files for 
-* Simplfied custom CRUD,etc. functions for AWS DynamoDB usable in Serverless Lambda platforms in NodeJS
+* Simplfied custom CRUD,etc. AWS DynamoDB functions using NodeJS for serverless AWS Lambda
 * MERN Backend templated with authentication
