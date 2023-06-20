@@ -1,0 +1,86 @@
+{
+	"custom": {
+		"statusCode": 403,
+		"apiExecuted": false,
+		"message": "",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"lambdaError": {
+		"statusCode": 404,
+		"apiExecuted": false,
+		"message": "Lambda error ",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"validationError": {
+		"statusCode": 400,
+		"apiExecuted": false,
+		"message": "Request data validation failed. Recheck for missing params / param names.",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"s3Fail": {
+		"statusCode": 402,
+		"apiExecuted": false,
+		"message": "S3 bucket error.",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"dbFail": {
+		"statusCode": 401,
+		"apiExecuted": false,
+		"message": "Database Operation error.",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"underMaintenance": {
+		"statusCode": 405,
+		"apiExecuted": false,
+		"message": "Feature Under Maintenance.",
+		"responseData": {},
+		"headers": {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token",
+			"Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+			"Access-Control-Allow-Origin": "*",
+			"Access-Control-Allow-Credentials": true
+		}
+	},
+	"apiSuccess": {
+		"statusCode": 200,
+		"apiExecuted": true,
+		"message": "",
+		"responseData": {},
+		"headers":  {
+			"Access-Control-Allow-Headers": "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Authorization, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Access-Control-Allow-Methods": "GET,HEAD,OPTIONS,POST,PUT",
+			"Access-Control-Allow-Origin": "localhost , *",
+			"Access-Control-Allow-Credentials": true
+		}
+	}
+}
